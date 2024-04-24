@@ -1,0 +1,322 @@
+﻿<!doctype html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<title>数据预测</title>
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<link rel="stylesheet" href="css/comon0.css">
+	<link rel="stylesheet" href="../FirstPage/base.css">
+</head>
+
+<body>
+	<header class="header left">
+		<div class="left nav">
+			<ul>
+				<li><i class="nav_1"></i><a href="../FirstPage/first.html">首页界面</a> </li>
+				<li><i class="nav_2"></i><a href="../DataScreen/index.html">数据总览</a> </li>
+			</ul>
+		</div>
+		<div class="header_center left">
+			<h2><strong>华夏旅游数字孪生决策平台</strong></h2>
+			<p class="color_font"><small>Comprehensive service platform for smart tourism</small></p>
+		</div>
+		<div class="right nav text_right">
+			<ul>
+				<li><i class="nav_8"></i><a href="../TravelResource/index.html">旅游资源</a> </li>
+				<li class="nav_active"><i class="nav_4"></i><a href="../DataPreview/index.html">数据预测</a> </li>
+			</ul>
+		</div>
+	</header>
+	<!---结束-->
+
+	<div class="mainbox">
+		<ul class="clearfix">
+			<!--左-->
+			<li>
+				<div class="boxall" style="height:calc(33.3333% - .25rem)">
+					<div class="tit01">未来出行人数预测</div>
+					<div class="boxnav nav01" id="echart1"></div>
+					<div class="boxfoot"></div>
+				</div>
+				<div style="height:calc(33.3333% - .25rem); margin-bottom: .25rem;">
+
+					<div class="boxall" style="height: 100%; width:calc(50% - .08rem); float: left;">
+						<div class="tit01">提供就业机会</div>
+						<div class="boxnav nav01" id="echart2"></div>
+						<div class="boxfoot"></div>
+					</div>
+
+					<div class="boxall" style="height: 100%; width:calc(50% - .08rem); float: right;">
+						<div class="tit01">占全国总就业人数</div>
+						<div class="boxnav nav01" style="display: flex; align-items: center;">
+							<p class="p2" style="font-size: 30px;"><span class="counter">10.29</span>%
+								<br><span class="counter">7661</span>
+								万
+							</p>
+						</div>
+						<div class="boxfoot"></div>
+					</div>
+
+
+				</div>
+
+
+
+
+				<div class="boxall" style="height:calc(33.3333% - .25rem)">
+					<div class="tit01">未来旅游GDP预测</div>
+					<div class="boxnav nav01" id="echart3"></div>
+					<div class="boxfoot"></div>
+				</div>
+			</li>
+			<!--中间-->
+			<li>
+
+				<div class="boxall" style="height:calc(33.33333% - .25rem)">
+					<!-- <div class="tit02">本月计划</div> -->
+					<div class="boxnav nav02">
+						<div>
+							<p class="p1">占全年总GDP</p>
+							<p class="p2"><span class="counter">11.3</span>%<br><span class="counter">124700</span>亿元
+							</p>
+							<p class="p3">
+								<span><i class="dot dot1"></i>人数同比增长：20%</span>
+								<span><i class="dot dot2"></i>消费规格同比增长：30%</span>
+							</p>
+						</div>
+					</div>
+					<div class="boxfoot"></div>
+				</div>
+				<div class="boxall" style="height:calc(66.666666% - .25rem)">
+					<div class="tit03">未来旅游热门城市预测</div>
+					<div class="boxnav nav03">
+
+						<div class="listhead listhead1">
+							<span>序号</span>
+							<span>省份</span>
+
+							<span>客流量</span>
+							<span>带来收入（亿）</span>
+
+							<span>占当地总GDP</span>
+						</div>
+						<div class="listnav listnav1 scrollDiv">
+							<ul>
+								<li> <span>1</span> <span>山东</span> <span>6867.2</span>
+									<span>8.5</span> <span class="text-green">8.26%</span>
+								</li>
+								<li><span>2</span> <span>山西</span> <span>8026.92</span>
+									<span>8</span> <span class="text-green">17.63%</span>
+								</li>
+								<li> <span>3</span> <span>陕西</span> <span>6784.5</span>
+									<span>7</span> <span class="text-green">12.33%</span>
+								</li>
+								<li> <span>4</span> <span>湖南</span> <span>6784.1</span>
+									<span>8</span> <span class="text-green">7.9%</span>
+								</li>
+								<li> <span>5</span> <span>湖北</span> <span>5674.5</span>
+									<span>7.5</span> <span class="text-green">9.3%</span>
+								</li>
+								<li> <span>6</span> <span>黑龙江</span> <span>3022.1</span>
+									<span>2.5</span> <span class="text-green">5.1%</span>
+								</li>
+								<li> <span>7</span> <span>辽宁</span> <span>5334.3</span>
+									<span>7.5</span> <span class="text-green">5.9%</span>
+								</li>
+								<li> <span>8</span> <span>吉林</span> <span>5231.5</span>
+									<span>5</span> <span class="text-green">9.4%</span>
+								</li>
+								<li> <span>9</span> <span>内蒙古自治区</span> <span>7001.2</span>
+									<span>6</span> <span class="text-green">9.5%</span>
+								</li>
+								<li> <span>10</span> <span>海南</span> <span>10003.3</span>
+									<span>10</span> <span>7.9%</span>
+								</li>
+							</ul>
+						</div>
+
+
+					</div>
+					<div class="boxfoot"></div>
+				</div>
+			</li>
+			<!--右-->
+			<li>
+				<div class="boxall" style="height:calc(100% - .25rem); padding: 0;">
+					<div class="tit04">相关最新政策</div>
+					<div class="boxnav nav04">
+
+						<div class="listhead listhead2">
+							<span>名称</span>
+							<span style="padding-right: 20px;">出处</span>
+							<span>发布时间</span>
+
+						</div>
+
+						<div class="listnav listnav2 scrollDiv">
+
+							<ul class="smjl" style="text-align: center;">
+								<li>
+									<span>湖南春季乡村文化旅游节聚焦“五村”特色</span>
+									<span class="text-green">中国旅游报社</span>
+									<span>
+										2024-04-10
+									</span>
+								</li>
+								<li>
+									<span>中国文化传媒集团统筹部署年度新闻报道重大选题工作</span>
+									<span class="text-red">中国文化传媒集团有限公司</span>
+									<span>
+										2024-04-12</span></span></span>
+								</li>
+								<li>
+									<span>泰安启动“乡村好时节·乐动生活”主题年活动</span>
+									<span class="text-green">中国旅游报社</span>
+									<span> 2024-04-01</span>
+								</li>
+								<li>
+									<span>2023年全国省级文旅国际新媒体传播情况报告</span>
+									<span class="text-green">中国旅游新闻网</span>
+									<span>
+										2024-02-23
+									</span>
+								</li>
+								<li>
+									<span>关于印发《国家公园资金绩效管理办法》的通知</span>
+									<span class="text-green">财政部 国家林草局</span>
+									<span>
+										2024-03-11</span>
+								</li>
+								<li>
+									<span>关于印发《国家公园资金绩效管理办法》的通知
+									</span>
+									<span class="text-green">财务司</span>
+									<span>2024-03-11</span>
+								</li>
+								<li>
+									<span>
+										山东推动打造革命文物主题游径</span>
+									<span class="text-green">
+										中国旅游报社</span>
+									<span> 2024-04-09</span>
+								</li>
+								<li>
+									<span>
+										宁夏丰富文旅业态培育新热点</span>
+									<span class="text-green">
+										中国旅游报社</span>
+									<span>
+										2024-03-21</span></span>
+								</li>
+								<li>
+									<span>
+										山东将大力发展革命文物研学旅游</span>
+									<span class="text-green">
+										中国旅游报社</span>
+									<span>
+										2024-04-02</span>
+								</li>
+								<li>
+									<span>促进“旅游+民族团结进步”融合发展</span>
+									<span class="text-green">中国旅游报社</span>
+									<span>
+										2024-03-12</span>
+								</li>
+								<li>
+									<span>辽宁出台实施方案推进非遗与旅游深度融合发展</span>
+									<span class="text-green">
+										中国旅游新闻网</span>
+									<span>2024-04-15</span>
+								</li>
+								<li>
+									<span>2024年清明节假期文化和旅游市场情况</span>
+									<span class="text-green">
+										文化和旅游部政府门户网站</span>
+									<span>
+										2024-04-06</span>
+								</li>
+
+								<li>
+									<span>2024年全国文化和旅游产业发展工作会议召开</span>
+									<span class="text-green">
+										文化和旅游部政府门户网站</span>
+									<span>2024-03-26</span>
+								</li>
+								<li>
+									<span>文化和旅游部公布部级社科研究项目委托立项名单</span>
+									<span class="text-green">中国旅游报社</span>
+									<span>
+										2024-04-15</span>
+								</li>
+								<li>
+									<span>
+										消博会将启 海南备足文旅大餐</span>
+									<span class="text-green">
+										中国旅游报社</span>
+									<span>
+										2024-04-12</span>
+								</li>
+								<li>
+									<span>《文化和旅游统计季度数据便览》2023年专家解读研讨会在京召开</span>
+									<span class="text-green">中国文化传媒集团</span>
+									<span>
+										2024-02-02</span>
+								</li>
+								<li>
+									<span>福建公开征集文旅宣传口号</span>
+									<span class="text-green">中国旅游报社</span>
+									<span>
+										2024-04-15</span>
+								</li>
+
+
+
+							</ul>
+						</div>
+					</div>
+					<div class="boxfoot"></div>
+				</div>
+
+			</li>
+		</ul>
+	</div>
+
+
+	<script type="text/javascript" src="js/echarts.min.js"></script>
+	<script src="js/jquery.liMarquee.js"></script>
+	<script language="JavaScript" src="js/js.js"></script>
+	<script type="text/javascript" src="js/jquery.countup.min.js"></script>
+	<script type="text/javascript" src="js/jquery.waypoints.min.js"></script>
+	<script type="text/javascript">
+		$('.counter').countUp();
+
+		$(function () {
+			$('.scrollDiv').liMarquee({
+				direction: 'up',//身上滚动 
+				runshort: false,//内容不足时不滚动
+				scrollamount: 20//速度
+			});
+		});
+
+	</script>
+
+	<script src="js/countDown.js"></script>
+	<script type="text/javascript">
+		$("input[name='countDown']").each(function () {
+			var time_end = this.value;
+			var con = $(this).next("span");
+			var _ = this.dataset;
+			countDown(con, {
+				time_end: time_end//开始时间
+			})
+				//提供3个事件分别为:启动,重启,停止
+				.on("countDownStarted countDownRestarted  countDownEnded ", function (arguments) {
+					console.info(arguments);
+				});
+		});
+
+	</script>
+</body>
+
+</html>
